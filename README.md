@@ -4,6 +4,12 @@ Welcome to my eLearning website project! 🎓
 
 I've created a modern, responsive eLearning website template that I'm excited to share with the community. This project is perfect for anyone looking to build an online learning platform, educational website, or course marketplace.
 
+---
+**Update:**
+- The project has been cleaned up for GitHub: unnecessary Bootstrap SCSS source files and system files are removed, and a `.gitignore` is included to keep the repo tidy.
+- Only minified CSS/JS files for third-party libraries are included for optimal performance and smaller repo size.
+---
+
 ## What I Can Offer
 
 ### 🚀 Ready-to-Use Template
@@ -25,19 +31,18 @@ I've created a modern, responsive eLearning website template that I'm excited to
 ├── contact.html            # Contact page
 ├── courses.html            # Courses listing page
 ├── css/
-│   ├── bootstrap.min.css   # Bootstrap CSS
+│   ├── bootstrap.min.css   # Bootstrap CSS (minified)
 │   └── style.css           # Custom styles
 ├── img/                    # Images used in the site
 ├── index.html              # Home page
 ├── js/
 │   └── main.js             # Custom JavaScript
-├── lib/                    # Third-party libraries
+├── lib/                    # Third-party libraries (minified only)
 │   ├── animate/            # Animate.css
 │   ├── easing/             # Easing functions
 │   ├── owlcarousel/        # Owl Carousel assets
 │   ├── waypoints/          # Waypoints.js
 │   └── wow/                # WOW.js
-├── scss/                   # Bootstrap SCSS source files
 ├── team.html               # Team page
 ├── testimonial.html        # Testimonials page
 └── LICENSE.txt             # License information
@@ -64,9 +69,10 @@ I've created a modern, responsive eLearning website template that I'm excited to
 I've made it easy for you to customize this template:
 
 - **Images**: Replace images in the `img/` folder with your own
-- **Styling**: Modify `css/style.css` or use the SCSS files for advanced customization
+- **Styling**: Modify `css/style.css` for custom styles
 - **Content**: Edit HTML files to add your courses, team members, and testimonials
 - **Functionality**: Extend the JavaScript in `js/main.js` for additional features
+- **Bootstrap**: Use `css/bootstrap.min.css` for Bootstrap overrides. No SCSS source files are included—if you need advanced Bootstrap customization, you can download the SCSS sources separately from the [Bootstrap website](https://getbootstrap.com/).
 
 ## Technologies I Used
 
